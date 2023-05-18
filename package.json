@@ -9,11 +9,13 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.21.4"
+  },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.7",
-    "@strapi/strapi": "4.1.7",
-    "@strapi/plugin-users-permissions": "4.1.7",
+    "@strapi/plugin-i18n": "4.1.11",
+    "@strapi/strapi": "4.1.11",
+    "@strapi/plugin-users-permissions": "4.1.11",
     "sqlite3": "^5.0.2"
   },
   "author": {
